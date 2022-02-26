@@ -1,0 +1,6 @@
+{"level":"error"}
+[2022-02-26 08:35:06][[31merror[39m] Redis connection failed Connection timeout
+Error: Connection timeout
+    at Socket.<anonymous> (E:\node\code\it-house-tutorial\node_modules\@node-redis\client\dist\lib\client\socket.js:169:124)
+    at Object.onceWrapper (node:events:513:28)
+    at Socket.emit (node:events:394:28)

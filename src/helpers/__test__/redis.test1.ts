@@ -6,5 +6,4 @@ export default test("Redis Counter", async () => {
   }
   const result = await redis.get("counter");
   expect(result).toBe("100");
-  redis.del("counter");
 });

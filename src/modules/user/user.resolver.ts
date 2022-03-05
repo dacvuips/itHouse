@@ -1,9 +1,11 @@
+import { Context } from "./../../helpers/graphql/context";
 import { validateEmail } from "./../../helpers/function/validexEmail";
-import { UserModel } from "./user.model";
+import { UserModel, UserRole } from "./user.model";
 import passwordHash from "password-hash";
 export default {
   Query: {
-    getAllUser: async (root: any, agrn: any, context: any) => {
+    getAllUser: async (root: any, agrn: any, context: Context) => {
+      context.auth(["ADMIN"]);
       const { q } = agrn;
 
       return await fetch(q);
@@ -17,7 +19,8 @@ export default {
   },
 
   Mutation: {
-    createUser: async (root: any, agrn: any, context: any) => {
+    createUser: async (root: any, agrn: any, context: Context) => {
+      context.auth(["ADMIN"]);
       const { data } = agrn;
       const { username, password, name, email, phone, role } = data;
       if (username.length < 6)
@@ -40,7 +43,8 @@ export default {
       });
       return user;
     },
-    updateUser: async (root: any, agrn: any, context: any) => {
+    updateUser: async (root: any, agrn: any, context: Context) => {
+      context.auth(["ADMIN"]);
       const { id, data } = agrn;
       const { name, email, phone, role } = data;
       const user = await UserModel.findById(id);
@@ -57,7 +61,8 @@ export default {
       );
     },
 
-    deleteUser: async (root: any, agrn: any, context: any) => {
+    deleteUser: async (root: any, agrn: any, context: Context) => {
+      context.auth(["ADMIN"]);
       const { id } = agrn;
       const user = await UserModel.findById(id);
       if (!user) {
@@ -92,7 +97,7 @@ export interface QueryInput {
   select?: any;
   search?: string;
 }
-async function fetch(queryInput: QueryInput, select?: string) {
+async function fetch(queryInput: QueryInput = {}, select?: string) {
   const limit = queryInput.limit || 10;
   const skip = ((queryInput.page || 1) - 1) * limit || 0;
   const order = queryInput.order;

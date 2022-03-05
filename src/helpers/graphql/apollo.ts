@@ -1,3 +1,4 @@
+import { Context } from "./context";
 import { ApolloServer, gql } from "apollo-server-express";
 import { Application, Request } from "express";
 import _ from "lodash";
@@ -5,11 +6,11 @@ import {
   loadGraphql,
   loadGraphqlResolver,
   loadGraphqlSchema,
-} from "./autoloader";
+} from "../autoloader";
 import GraphqlDateTime from "graphql-type-datetime";
 import minifyGql from "minify-graphql-loader";
 import morgan from "morgan";
-import logger from "./logger";
+import logger from "../logger";
 
 export class GraphqlServer {
   constructor(public app: Application) {}
@@ -76,6 +77,10 @@ export class GraphqlServer {
       introspection: true,
       typeDefs: typeDefs,
       resolvers: resolvers,
+      context: async ({ req }: { req: Request }) => {
+        const context = new Context({ req });
+        return context;
+      },
     });
 
     await server.start();

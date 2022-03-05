@@ -4,3 +4,91 @@ Error: Connection timeout
     at Socket.<anonymous> (E:\node\code\it-house-tutorial\node_modules\@node-redis\client\dist\lib\client\socket.js:169:124)
     at Object.onceWrapper (node:events:513:28)
     at Socket.emit (node:events:394:28)
+[2022-02-28 22:49:32][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-02-28 22:52:20][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-02-28 22:52:58][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 21:10:49][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 21:40:17][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 21:41:54][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 21:50:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 21:50:49][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 22:11:13][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 22:17:25][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 22:24:09][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 22:51:59][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 23:05:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 23:18:47][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 23:19:27][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-02 23:35:33][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-03 00:13:16][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-03 00:14:33][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-03 00:34:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-03 00:36:24][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-03 09:18:50][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)
+[2022-03-03 09:25:26][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1142:16)

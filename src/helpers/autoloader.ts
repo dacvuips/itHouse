@@ -1,3 +1,4 @@
+import { RouterConfig } from "./apiRouter";
 import { Autoloader } from "autoloader-ts";
 import _ from "lodash";
 
@@ -37,5 +38,19 @@ export async function loadGraphql() {
       return pre;
     },
     { typedefs: [], resolvers: {} } as { typedefs: any[]; resolvers: any }
+  );
+}
+
+export async function loaderRouter() {
+  const loader = await Autoloader.dynamicImport();
+  await loader.fromGlob(__dirname + "/../modules/**/*.router.ts");
+  const exports = loader.getResult().exports;
+
+  return _.reduce(
+    exports,
+    (pre, value) => {
+      return pre.concat(value);
+    },
+    [] as RouterConfig[]
   );
 }

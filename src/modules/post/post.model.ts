@@ -1,5 +1,5 @@
 import { Document, Schema } from "mongoose";
-import { BaseDoccument } from "../../base/baseModel";
+import { BaseDocument } from "../../base/baseModel";
 import { Mongo } from "../../helpers/mongo";
 export enum UserRole {
   ADMIN = "ADMIN",
@@ -7,7 +7,7 @@ export enum UserRole {
   MERCHANT = "MERCHANT",
 }
 
-export type User = BaseDoccument & {
+export type User = BaseDocument & {
   username?: string; //User Name
   name?: string; // Họ và tên
   email?: string; // Email
@@ -30,4 +30,4 @@ const userSchema = new Schema(
 
 userSchema.index({ username: 1 }, { unique: true });
 
-export const UserModel = Mongo.model("User", userSchema);
+export const UserModel = Mongo.model("Post", userSchema);

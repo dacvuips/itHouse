@@ -30,7 +30,16 @@ export const OrderItemSchema = new Schema({
 
   productPrice: { type: Number, default: 0 },
 
-  productSellPrice: { type: Number, default: 0 },
+  productSellPrice: {
+    type: Number,
+    default: 0,
+    validate: {
+      validator: function (v: Number) {
+        return v >= 0;
+      },
+      message: "Giá bán phải lớn hơn giá bán",
+    },
+  },
 
   qty: { type: Number, default: 1, min: 1 },
 

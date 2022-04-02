@@ -25,7 +25,12 @@ export default {
     createProduct: async (root: any, args: any, context: Context) => {
       context.auth(["ADMIN"]);
       const { data } = args;
-
+      if (data.sellPrice < 0) {
+        throw new Error("Sell price must be greater than 0");
+      }
+      if (data.basePrice < 0) {
+        throw new Error("Sell price must be greater than 0");
+      }
       if (!data.code) {
         data.code = productService.generateCode();
       }

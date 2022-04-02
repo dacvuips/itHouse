@@ -1,3 +1,4 @@
+import { Mixed } from "mongoose";
 import { OrderItem } from "./orderItem.graphql";
 import { gql } from "apollo-server-express";
 import { OrderStatus } from "./order.model";
@@ -24,7 +25,7 @@ export default gql`
         "Mã đơn hàng"
         code: String
         "Mã khách hàng"
-        buyerId: ID
+        buyerId: ID!
         "Tên khách hàng"
         buyerName: String
         "Số điện thoại khách hàng"
@@ -62,8 +63,11 @@ export default gql`
         buyerUser: User
         "Chi nhánh"
         branch: Branch
-
-
+        
+        "Khoảng cách"
+        distance: Float
+        "Thông tin giảm giá"
+        discountInfo: Mixed
     }
     
 
@@ -89,7 +93,10 @@ export default gql`
         items:[OrderItemInput]
         "ID Chi nhánh"
         branchId: ID!
-
+        "Khoảng cách"
+        distance: Float
+          "Thông tin giảm giá"
+          discountInfo: Mixed
     }
 
     input UpdateOrderInput {

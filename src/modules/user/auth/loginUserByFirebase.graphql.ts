@@ -1,3 +1,4 @@
+import passwordHash from "password-hash";
 import { gql } from "apollo-server-express";
 import firebase from "../../../helpers/firebase";
 import Token from "../../../helpers/token";
@@ -9,15 +10,39 @@ export default {
   schema: gql`
     type Mutation {
       loginUserByFirebase(accessToken: String!): LoginUserData
+      loginUser(username: String!, password: String!): LoginUser
     }
 
     type LoginUserData {
       user: User
       token: String
     }
+    type LoginUser {
+      username: String
+      token: String
+    }
   `,
   resolvers: {
     Mutation: {
+      loginUser: async (root: any, args: any, context: any) => {
+        const { username, password } = args;
+        const user = await UserModel.findOne({ username });
+        if (!user) {
+          throw new Error("User not found");
+        }
+        if (!user.password) {
+          throw new Error("User not found");
+        }
+        if (!passwordHash.verify(password, user.password)) {
+          throw new Error("Password  sai");
+        }
+        const token = new Token(user._id, user.role!, { scopes: user.scopes });
+
+        return {
+          username: user.username,
+          token: token.sign(),
+        };
+      },
       loginUserByFirebase: async (root: any, args: any, context: any) => {
         const { accessToken } = args;
 

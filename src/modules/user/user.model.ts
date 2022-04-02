@@ -21,6 +21,7 @@ export type User = BaseDocument & {
   scopes?: string[]; // Các quyền
   deviceTokens?: string[]; // Token để gửi thông báo
   rewardPoint?: number; // Điểm thưởng
+  rewardPointDiscount?: number; // Điểm thưởng giảm giá
 };
 
 const userSchema = new Schema(
@@ -31,11 +32,17 @@ const userSchema = new Schema(
     email: { type: String },
     phone: { type: String },
     password: { type: String },
-    role: { type: String, required: true, enum: Object.values(UserRole) },
+    role: {
+      type: String,
+      required: true,
+      enum: Object.values(UserRole),
+      default: UserRole.USER,
+    },
     signInProvider: { type: String },
     scopes: { type: [String] },
     deviceTokens: { type: [String], default: [] },
     rewardPoint: { type: Number, default: 0 },
+    rewardPointDiscount: { type: Number, default: 0 },
   },
   { timestamps: true }
 );

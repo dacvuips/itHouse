@@ -1,5 +1,6 @@
 import { Mixed } from "mongoose";
 import { gql } from "apollo-server-express";
+import { PromotionType } from "./promotion.model";
 
 export default gql`
   extend type Query {
@@ -31,6 +32,12 @@ export default gql`
     active: Boolean
     " Giảm giá"
     discount: Discount
+    "Loại khuyến mãi ${Object.values(PromotionType)}"
+    promotionType: String
+    " Mã khuyến mãi"
+    promotionCode: String
+    "UserId"
+    userId: String
   }
   input PromotionInput {
     " Tên"
@@ -45,6 +52,11 @@ export default gql`
     active: Boolean
     " Giảm giá"
     discount: DiscountInput
+    "Loại khuyến mãi ${Object.values(PromotionType)}"
+
+    promotionType: String
+    " Mã khuyến mãi"
+    promotionCode: String
   }
 
   input CreatePromotionInput {
@@ -60,6 +72,11 @@ export default gql`
     active: Boolean
     " Giảm giá"
     discount: DiscountInput
+    "Loại khuyến mãi ${Object.values(PromotionType)}"
+
+    promotionType: String
+    " Mã khuyến mãi"
+    promotionCode: String
   }
 
   input UpdatePromotionInput {
@@ -74,5 +91,9 @@ export default gql`
     active: Boolean
     " Giảm giá"
     discount: DiscountInput
+    "Loại khuyến mãi ${Object.values(PromotionType)}"
+    promotionType: String
+    "Mã khuyến mãi"
+    promotionCode: String
   }
 `;

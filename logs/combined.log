@@ -5902,3 +5902,1294 @@ Error: connect ECONNREFUSED 127.0.0.1:6379
 [2022-03-27 16:07:05][[32minfo[39m] ids
 { "0": "622d322671c1a82294481ccd" }
 [2022-03-27 19:20:54][[32minfo[39m] Mongoose connected
+[2022-04-01 21:56:50][[32minfo[39m] API router started at /api
+[2022-04-01 21:56:50][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 21:56:51][[32minfo[39m] Mongoose connected
+[2022-04-01 22:27:15][[32minfo[39m] API router started at /api
+[2022-04-01 22:27:15][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:27:16][[32minfo[39m] Mongoose connected
+[2022-04-01 22:28:14][[32minfo[39m] API router started at /api
+[2022-04-01 22:28:14][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:28:15][[32minfo[39m] Mongoose connected
+[2022-04-01 22:31:27][[32minfo[39m] API router started at /api
+[2022-04-01 22:31:27][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:31:28][[32minfo[39m] Mongoose connected
+[2022-04-01 22:33:46][[32minfo[39m] API router started at /api
+[2022-04-01 22:33:46][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:33:47][[32minfo[39m] Mongoose connected
+[2022-04-01 22:35:40][[32minfo[39m] API router started at /api
+[2022-04-01 22:35:41][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:35:42][[32minfo[39m] Mongoose connected
+[2022-04-01 22:36:11][[32minfo[39m] API router started at /api
+[2022-04-01 22:36:12][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:36:14][[32minfo[39m] Mongoose connected
+[2022-04-01 22:37:38][[32minfo[39m] API router started at /api
+[2022-04-01 22:37:40][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:37:40][[32minfo[39m] Mongoose connected
+[2022-04-01 22:38:28][[32minfo[39m] API router started at /api
+[2022-04-01 22:38:28][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:38:28][[32minfo[39m] Mongoose connected
+[2022-04-01 22:39:05][[32minfo[39m] API router started at /api
+[2022-04-01 22:39:07][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:39:08][[32minfo[39m] Mongoose connected
+[2022-04-01 22:41:40][[32minfo[39m] API router started at /api
+[2022-04-01 22:41:42][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:41:42][[32minfo[39m] Mongoose connected
+[2022-04-01 22:43:00][[32minfo[39m] API router started at /api
+[2022-04-01 22:43:02][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:43:02][[32minfo[39m] Mongoose connected
+[2022-04-01 22:44:31][[32minfo[39m] API router started at /api
+[2022-04-01 22:44:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:44:32][[32minfo[39m] Mongoose connected
+[2022-04-01 22:49:32][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionType promotionCode}} - 200 - 425.462 ms
+
+[2022-04-01 22:54:10][[32minfo[39m] API router started at /api
+[2022-04-01 22:54:11][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:54:12][[32minfo[39m] Mongoose connected
+[2022-04-01 22:57:04][[32minfo[39m] API router started at /api
+[2022-04-01 22:57:04][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:57:04][[32minfo[39m] Mongoose connected
+[2022-04-01 22:57:45][[32minfo[39m] API router started at /api
+[2022-04-01 22:57:45][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:57:46][[32minfo[39m] Mongoose connected
+[2022-04-01 22:58:39][[32minfo[39m] API router started at /api
+[2022-04-01 22:58:39][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 22:58:39][[32minfo[39m] Mongoose connected
+[2022-04-01 23:00:27][[32minfo[39m] API router started at /api
+[2022-04-01 23:00:27][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:00:28][[32minfo[39m] Mongoose connected
+[2022-04-01 23:00:30][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 20.457 ms
+
+[2022-04-01 23:00:30][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-01 23:01:08][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 20.720 ms
+
+[2022-04-01 23:01:13][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 2.631 ms
+
+[2022-04-01 23:03:39][[32minfo[39m] GRAPHQL mutation LoginUserByFirebase($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{uid username name email signInProvider phone role rewardPoint unreadNotify createdAt updatedAt id}token}} - 400 - 318.043 ms
+
+[2022-04-01 23:05:32][[32minfo[39m] GRAPHQL mutation LoginUserByFirebase($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{uid username name email signInProvider phone role rewardPoint unreadNotify createdAt updatedAt id}token}} - 200 - 1938.103 ms
+
+[2022-04-01 23:05:46][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 3.133 ms
+
+[2022-04-01 23:05:51][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-01 23:05:51][[32minfo[39m] ids
+{ "0": "623d1e2643c4eb502ea00590" }
+[2022-04-01 23:05:51][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-01 23:05:51][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-01 23:05:51][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 315.595 ms
+
+[2022-04-01 23:07:19][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-01 23:07:19][[32minfo[39m] ids
+{ "0": "623d1e2643c4eb502ea00590" }
+[2022-04-01 23:07:19][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-01 23:07:19][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-01 23:07:19][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 274.968 ms
+
+[2022-04-01 23:08:03][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 200 - 70.383 ms
+
+[2022-04-01 23:08:18][[32minfo[39m] GRAPHQL {getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 400 - 6.719 ms
+
+[2022-04-01 23:08:42][[32minfo[39m] GRAPHQL query{getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 400 - 6.047 ms
+
+[2022-04-01 23:08:43][[32minfo[39m] GRAPHQL query{getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 400 - 4.118 ms
+
+[2022-04-01 23:08:58][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 200 - 47.896 ms
+
+[2022-04-01 23:09:30][[32minfo[39m] GRAPHQL query($q:QueryInput){getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 200 - 47.192 ms
+
+[2022-04-01 23:09:53][[32minfo[39m] GRAPHQL query getAllUser($q:QueryInput){getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 200 - 53.236 ms
+
+[2022-04-01 23:10:04][[32minfo[39m] GRAPHQL query getAllBranch($lng:Float!$lat:Float!){getAllBranch{data{id name phone place{provinceName address provinceId districtId wardId wardName districtName location distance(lng:$lng lat:$lat)}active}}} - 200 - 53.940 ms
+
+[2022-04-01 23:20:53][[32minfo[39m] API router started at /api
+[2022-04-01 23:20:55][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:20:56][[32minfo[39m] Mongoose connected
+[2022-04-01 23:23:31][[32minfo[39m] API router started at /api
+[2022-04-01 23:23:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:23:32][[32minfo[39m] Mongoose connected
+[2022-04-01 23:24:17][[32minfo[39m] API router started at /api
+[2022-04-01 23:24:17][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:24:18][[32minfo[39m] Mongoose connected
+[2022-04-01 23:30:06][[32minfo[39m] API router started at /api
+[2022-04-01 23:30:06][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:30:07][[32minfo[39m] Mongoose connected
+[2022-04-01 23:35:02][[32minfo[39m] API router started at /api
+[2022-04-01 23:35:02][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:35:03][[32minfo[39m] Mongoose connected
+[2022-04-01 23:35:13][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 400 - 20.768 ms
+
+[2022-04-01 23:37:14][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 200 - 10.588 ms
+
+[2022-04-01 23:37:38][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 200 - 194.613 ms
+
+[2022-04-01 23:45:24][[32minfo[39m] API router started at /api
+[2022-04-01 23:45:24][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:45:25][[32minfo[39m] Mongoose connected
+[2022-04-01 23:46:37][[32minfo[39m] API router started at /api
+[2022-04-01 23:46:37][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:46:38][[32minfo[39m] Mongoose connected
+[2022-04-01 23:50:21][[32minfo[39m] API router started at /api
+[2022-04-01 23:50:21][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-01 23:50:23][[32minfo[39m] Mongoose connected
+[2022-04-01 23:51:17][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 400 - 17.594 ms
+
+[2022-04-01 23:52:12][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 200 - 188.748 ms
+
+[2022-04-01 23:57:08][[32minfo[39m] GRAPHQL mutation UpdateUser($data:UpdateUserInput!$updateUserId:ID!){updateUser(data:$data id:$updateUserId){uid username name email signInProvider phone role rewardPoint unreadNotify updatedAt createdAt id}} - 200 - 112.768 ms
+
+[2022-04-01 23:57:29][[32minfo[39m] GRAPHQL mutation UpdateUser($data:UpdateUserInput!$updateUserId:ID!){updateUser(data:$data id:$updateUserId){uid username name email signInProvider phone role rewardPoint unreadNotify updatedAt createdAt id}} - 200 - 53.235 ms
+
+[2022-04-02 00:21:51][[32minfo[39m] API router started at /api
+[2022-04-02 00:21:54][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:21:55][[32minfo[39m] Mongoose connected
+[2022-04-02 00:23:49][[32minfo[39m] API router started at /api
+[2022-04-02 00:23:49][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:23:50][[32minfo[39m] Mongoose connected
+[2022-04-02 00:25:19][[32minfo[39m] API router started at /api
+[2022-04-02 00:25:21][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:25:22][[32minfo[39m] Mongoose connected
+[2022-04-02 00:26:22][[32minfo[39m] API router started at /api
+[2022-04-02 00:26:22][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:26:23][[32minfo[39m] Mongoose connected
+[2022-04-02 00:33:05][[32minfo[39m] API router started at /api
+[2022-04-02 00:33:05][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:33:06][[32minfo[39m] Mongoose connected
+[2022-04-02 00:37:51][[32minfo[39m] API router started at /api
+[2022-04-02 00:37:52][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:37:53][[32minfo[39m] Mongoose connected
+[2022-04-02 00:43:43][[32minfo[39m] API router started at /api
+[2022-04-02 00:43:45][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:43:46][[32minfo[39m] Mongoose connected
+[2022-04-02 00:45:21][[32minfo[39m] API router started at /api
+[2022-04-02 00:45:21][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:45:22][[32minfo[39m] Mongoose connected
+[2022-04-02 00:46:40][[32minfo[39m] GRAPHQL mutation LoginUser($username:String!$password:String!){loginUser(username:$username password:$password){username token}} - 200 - 75.247 ms
+
+[2022-04-02 00:47:02][[32minfo[39m] GRAPHQL mutation LoginUser($username:String!$password:String!){loginUser(username:$username password:$password){username token}} - 200 - 57.896 ms
+
+[2022-04-02 00:47:34][[32minfo[39m] API router started at /api
+[2022-04-02 00:47:37][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 00:47:38][[32minfo[39m] Mongoose connected
+[2022-04-02 00:48:36][[32minfo[39m] GRAPHQL mutation LoginUser($username:String!$password:String!){loginUser(username:$username password:$password){username token}} - 200 - 77.525 ms
+
+[2022-04-02 00:54:49][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionType promotionCode}} - 200 - 21.190 ms
+
+[2022-04-02 00:56:16][[32minfo[39m] GRAPHQL mutation LoginUser($username:String!$password:String!){loginUser(username:$username password:$password){username token}} - 200 - 45.418 ms
+
+[2022-04-02 00:56:36][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionType promotionCode}} - 200 - 19.773 ms
+
+[2022-04-02 00:56:48][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode}} - 200 - 8.025 ms
+
+[2022-04-02 00:57:28][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 9.258 ms
+
+[2022-04-02 01:00:15][[32minfo[39m] API router started at /api
+[2022-04-02 01:00:15][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:00:16][[32minfo[39m] Mongoose connected
+[2022-04-02 01:00:50][[32minfo[39m] API router started at /api
+[2022-04-02 01:00:50][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:00:51][[32minfo[39m] Mongoose connected
+[2022-04-02 01:01:28][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 98.177 ms
+
+[2022-04-02 01:07:35][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 63.134 ms
+
+[2022-04-02 01:10:51][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 54.308 ms
+
+[2022-04-02 01:15:25][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 52.432 ms
+
+[2022-04-02 01:35:47][[32minfo[39m] API router started at /api
+[2022-04-02 01:35:48][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:35:49][[32minfo[39m] Mongoose connected
+[2022-04-02 01:40:20][[32minfo[39m] API router started at /api
+[2022-04-02 01:40:20][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:40:21][[32minfo[39m] Mongoose connected
+[2022-04-02 01:41:37][[32minfo[39m] API router started at /api
+[2022-04-02 01:41:37][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:41:38][[32minfo[39m] Mongoose connected
+[2022-04-02 01:41:49][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 01:41:49][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 189.312 ms
+
+[2022-04-02 01:42:57][[32minfo[39m] API router started at /api
+[2022-04-02 01:42:57][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:42:58][[32minfo[39m] Mongoose connected
+[2022-04-02 01:43:01][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 01:43:01][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 315.676 ms
+
+[2022-04-02 01:47:49][[32minfo[39m] API router started at /api
+[2022-04-02 01:47:49][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:47:50][[32minfo[39m] Mongoose connected
+[2022-04-02 01:55:56][[32minfo[39m] API router started at /api
+[2022-04-02 01:55:56][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 01:55:57][[32minfo[39m] Mongoose connected
+[2022-04-02 01:57:17][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 01:57:17][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 87.134 ms
+
+[2022-04-02 02:00:31][[32minfo[39m] API router started at /api
+[2022-04-02 02:00:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:00:32][[32minfo[39m] Mongoose connected
+[2022-04-02 02:05:20][[32minfo[39m] API router started at /api
+[2022-04-02 02:05:20][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:05:21][[32minfo[39m] Mongoose connected
+[2022-04-02 02:05:36][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:05:36][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:05:36][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:05:36][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 315.062 ms
+
+[2022-04-02 02:14:47][[32minfo[39m] API router started at /api
+[2022-04-02 02:14:49][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:14:50][[32minfo[39m] Mongoose connected
+[2022-04-02 02:27:34][[32minfo[39m] API router started at /api
+[2022-04-02 02:27:34][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:27:35][[32minfo[39m] Mongoose connected
+[2022-04-02 02:32:14][[32minfo[39m] API router started at /api
+[2022-04-02 02:32:16][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:32:17][[32minfo[39m] Mongoose connected
+[2022-04-02 02:33:43][[32minfo[39m] API router started at /api
+[2022-04-02 02:33:43][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:33:44][[32minfo[39m] Mongoose connected
+[2022-04-02 02:34:16][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:34:16][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:34:16][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:34:16][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 319.038 ms
+
+[2022-04-02 02:35:51][[32minfo[39m] API router started at /api
+[2022-04-02 02:35:53][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:35:54][[32minfo[39m] Mongoose connected
+[2022-04-02 02:36:17][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:36:17][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:36:17][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:36:17][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 323.718 ms
+
+[2022-04-02 02:37:30][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:37:30][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:37:30][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:37:30][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 266.437 ms
+
+[2022-04-02 02:41:06][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:41:06][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:41:06][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:41:06][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 244.698 ms
+
+[2022-04-02 02:42:37][[32minfo[39m] API router started at /api
+[2022-04-02 02:42:37][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:42:38][[32minfo[39m] Mongoose connected
+[2022-04-02 02:42:44][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:42:44][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:42:44][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:42:44][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 301.048 ms
+
+[2022-04-02 02:44:04][[32minfo[39m] API router started at /api
+[2022-04-02 02:44:05][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:44:06][[32minfo[39m] Mongoose connected
+[2022-04-02 02:44:10][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:44:10][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:44:10][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:44:10][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 328.139 ms
+
+[2022-04-02 02:47:17][[32minfo[39m] API router started at /api
+[2022-04-02 02:47:17][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:47:19][[32minfo[39m] Mongoose connected
+[2022-04-02 02:48:12][[32minfo[39m] API router started at /api
+[2022-04-02 02:48:12][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:48:13][[32minfo[39m] Mongoose connected
+[2022-04-02 02:49:24][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:49:24][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:49:24][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:49:24][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 373.948 ms
+
+[2022-04-02 02:52:13][[32minfo[39m] API router started at /api
+[2022-04-02 02:52:16][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:52:17][[32minfo[39m] Mongoose connected
+[2022-04-02 02:52:54][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:52:55][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:52:55][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:52:55][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 302.002 ms
+
+[2022-04-02 02:53:51][[32minfo[39m] API router started at /api
+[2022-04-02 02:53:53][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:53:54][[32minfo[39m] Mongoose connected
+[2022-04-02 02:54:32][[32minfo[39m] API router started at /api
+[2022-04-02 02:54:32][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:54:32][[32minfo[39m] Mongoose connected
+[2022-04-02 02:54:52][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:54:52][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:54:52][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:54:53][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 341.563 ms
+
+[2022-04-02 02:56:52][[32minfo[39m] API router started at /api
+[2022-04-02 02:56:52][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 02:56:53][[32minfo[39m] Mongoose connected
+[2022-04-02 02:57:17][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 02:57:17][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 02:57:17][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 02:57:17][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 335.842 ms
+
+[2022-04-02 03:03:21][[32minfo[39m] API router started at /api
+[2022-04-02 03:03:23][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:03:24][[32minfo[39m] Mongoose connected
+[2022-04-02 03:11:21][[32minfo[39m] API router started at /api
+[2022-04-02 03:11:21][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:11:22][[32minfo[39m] Mongoose connected
+[2022-04-02 03:11:47][[32minfo[39m] API router started at /api
+[2022-04-02 03:11:49][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:11:50][[32minfo[39m] Mongoose connected
+[2022-04-02 03:13:03][[32minfo[39m] API router started at /api
+[2022-04-02 03:13:03][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:13:04][[32minfo[39m] Mongoose connected
+[2022-04-02 03:13:22][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 03:13:22][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 03:13:23][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 03:13:23][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 285.738 ms
+
+[2022-04-02 03:16:03][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 03:16:03][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 03:16:03][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 03:16:03][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 203.457 ms
+
+[2022-04-02 03:17:10][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 03:17:10][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 03:17:10][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 03:17:10][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 201.930 ms
+
+[2022-04-02 03:18:24][[32minfo[39m] API router started at /api
+[2022-04-02 03:18:24][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:18:25][[32minfo[39m] Mongoose connected
+[2022-04-02 03:18:59][[32minfo[39m] API router started at /api
+[2022-04-02 03:19:01][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:19:02][[32minfo[39m] Mongoose connected
+[2022-04-02 03:23:08][[32minfo[39m] API router started at /api
+[2022-04-02 03:23:08][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:23:09][[32minfo[39m] Mongoose connected
+[2022-04-02 03:26:25][[32minfo[39m] API router started at /api
+[2022-04-02 03:26:25][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:26:26][[32minfo[39m] Mongoose connected
+[2022-04-02 03:27:31][[32minfo[39m] API router started at /api
+[2022-04-02 03:27:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:27:32][[32minfo[39m] Mongoose connected
+[2022-04-02 03:28:25][[32minfo[39m] API router started at /api
+[2022-04-02 03:28:28][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:28:29][[32minfo[39m] Mongoose connected
+[2022-04-02 03:28:49][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 03:28:49][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 03:28:49][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 03:28:49][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 326.255 ms
+
+[2022-04-02 03:32:21][[32minfo[39m] API router started at /api
+[2022-04-02 03:32:21][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:32:22][[32minfo[39m] Mongoose connected
+[2022-04-02 03:32:36][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 03:32:36][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 03:32:36][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 03:32:36][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 304.102 ms
+
+[2022-04-02 03:45:26][[32minfo[39m] API router started at /api
+[2022-04-02 03:45:26][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:45:27][[32minfo[39m] Mongoose connected
+[2022-04-02 03:45:57][[32minfo[39m] API router started at /api
+[2022-04-02 03:45:57][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:45:58][[32minfo[39m] Mongoose connected
+[2022-04-02 03:48:32][[32minfo[39m] API router started at /api
+[2022-04-02 03:48:32][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:48:33][[32minfo[39m] Mongoose connected
+[2022-04-02 03:49:25][[32minfo[39m] API router started at /api
+[2022-04-02 03:49:27][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 03:49:28][[32minfo[39m] Mongoose connected
+[2022-04-02 04:03:39][[32minfo[39m] API router started at /api
+[2022-04-02 04:03:41][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:03:42][[32minfo[39m] Mongoose connected
+[2022-04-02 04:06:30][[32minfo[39m] API router started at /api
+[2022-04-02 04:06:30][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:06:31][[32minfo[39m] Mongoose connected
+[2022-04-02 04:08:18][[32minfo[39m] API router started at /api
+[2022-04-02 04:08:19][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:08:20][[32minfo[39m] Mongoose connected
+[2022-04-02 04:15:44][[32minfo[39m] API router started at /api
+[2022-04-02 04:15:45][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:15:46][[32minfo[39m] Mongoose connected
+[2022-04-02 04:20:07][[32minfo[39m] API router started at /api
+[2022-04-02 04:20:07][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:20:08][[32minfo[39m] Mongoose connected
+[2022-04-02 04:24:02][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 400 - 16.914 ms
+
+[2022-04-02 04:24:32][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 71.403 ms
+
+[2022-04-02 04:25:23][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 46.760 ms
+
+[2022-04-02 04:25:25][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 44.342 ms
+
+[2022-04-02 04:25:59][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 45.556 ms
+
+[2022-04-02 04:25:59][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 46.650 ms
+
+[2022-04-02 04:26:01][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 51.029 ms
+
+[2022-04-02 04:26:34][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 47.067 ms
+
+[2022-04-02 04:26:35][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 43.777 ms
+
+[2022-04-02 04:27:01][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 172.582 ms
+
+[2022-04-02 04:27:01][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:29:11][[32minfo[39m] API router started at /api
+[2022-04-02 04:29:11][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:29:12][[32minfo[39m] Mongoose connected
+[2022-04-02 04:30:35][[32minfo[39m] API router started at /api
+[2022-04-02 04:30:35][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:30:36][[32minfo[39m] Mongoose connected
+[2022-04-02 04:30:53][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 9.504 ms
+
+[2022-04-02 04:31:19][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 1.288 ms
+
+[2022-04-02 04:31:20][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 1.010 ms
+
+[2022-04-02 04:32:01][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 0.987 ms
+
+[2022-04-02 04:32:12][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 1.087 ms
+
+[2022-04-02 04:33:02][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 0.928 ms
+
+[2022-04-02 04:33:27][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 1.054 ms
+
+[2022-04-02 04:33:28][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 1.049 ms
+
+[2022-04-02 04:36:42][[32minfo[39m] API router started at /api
+[2022-04-02 04:36:42][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:36:43][[32minfo[39m] Mongoose connected
+[2022-04-02 04:37:11][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 260.638 ms
+
+[2022-04-02 04:37:11][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:37:38][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:37:38][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 158.841 ms
+
+[2022-04-02 04:41:12][[32minfo[39m] API router started at /api
+[2022-04-02 04:41:12][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:41:13][[32minfo[39m] Mongoose connected
+[2022-04-02 04:41:23][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:41:23][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 262.788 ms
+
+[2022-04-02 04:43:24][[32minfo[39m] API router started at /api
+[2022-04-02 04:43:26][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:43:27][[32minfo[39m] Mongoose connected
+[2022-04-02 04:43:35][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 222.915 ms
+
+[2022-04-02 04:43:35][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:45:20][[32minfo[39m] API router started at /api
+[2022-04-02 04:45:20][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:45:21][[32minfo[39m] Mongoose connected
+[2022-04-02 04:45:29][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 239.598 ms
+
+[2022-04-02 04:45:29][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:46:38][[32minfo[39m] API router started at /api
+[2022-04-02 04:46:38][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:46:39][[32minfo[39m] Mongoose connected
+[2022-04-02 04:46:52][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 152.651 ms
+
+[2022-04-02 04:46:52][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:52:51][[32minfo[39m] API router started at /api
+[2022-04-02 04:52:51][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:52:52][[32minfo[39m] Mongoose connected
+[2022-04-02 04:53:09][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 04:53:09][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 173.789 ms
+
+[2022-04-02 04:54:54][[32minfo[39m] API router started at /api
+[2022-04-02 04:54:57][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 04:54:59][[32minfo[39m] Mongoose connected
+[2022-04-02 05:04:02][[32minfo[39m] API router started at /api
+[2022-04-02 05:04:02][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 05:04:02][[32minfo[39m] Mongoose connected
+[2022-04-02 08:13:22][[32minfo[39m] Mongoose connected
+[2022-04-02 08:28:55][[32minfo[39m] API router started at /api
+[2022-04-02 08:28:55][[31merror[39m] Redis connection failed Connection timeout
+Error: Connection timeout
+    at Socket.<anonymous> (E:\node\code\Luufile\itHouse\node_modules\@node-redis\client\dist\lib\client\socket.js:169:124)
+    at Object.onceWrapper (events.js:519:28)
+    at Socket.emit (events.js:400:28)
+[2022-04-02 08:28:58][[32minfo[39m] Mongoose connected
+[2022-04-02 08:29:47][[32minfo[39m] API router started at /api
+[2022-04-02 08:29:48][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:29:49][[32minfo[39m] Mongoose connected
+[2022-04-02 08:29:54][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 08:29:54][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 213.932 ms
+
+[2022-04-02 08:31:53][[32minfo[39m] API router started at /api
+[2022-04-02 08:31:53][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:31:54][[32minfo[39m] Mongoose connected
+[2022-04-02 08:32:09][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 158.469 ms
+
+[2022-04-02 08:32:09][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 08:33:07][[32minfo[39m] API router started at /api
+[2022-04-02 08:33:07][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:33:08][[32minfo[39m] Mongoose connected
+[2022-04-02 08:34:03][[32minfo[39m] API router started at /api
+[2022-04-02 08:34:03][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:34:04][[32minfo[39m] Mongoose connected
+[2022-04-02 08:34:26][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 165.856 ms
+
+[2022-04-02 08:34:26][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 08:41:40][[32minfo[39m] API router started at /api
+[2022-04-02 08:41:40][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:41:41][[32minfo[39m] Mongoose connected
+[2022-04-02 08:42:17][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 199.732 ms
+
+[2022-04-02 08:42:17][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 08:43:20][[32minfo[39m] API router started at /api
+[2022-04-02 08:43:22][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:43:23][[32minfo[39m] Mongoose connected
+[2022-04-02 08:47:55][[32minfo[39m] API router started at /api
+[2022-04-02 08:47:56][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:47:58][[32minfo[39m] Mongoose connected
+[2022-04-02 08:53:34][[32minfo[39m] API router started at /api
+[2022-04-02 08:53:35][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 08:53:36][[32minfo[39m] Mongoose connected
+[2022-04-02 09:09:02][[32minfo[39m] API router started at /api
+[2022-04-02 09:09:05][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:09:07][[32minfo[39m] Mongoose connected
+[2022-04-02 09:09:11][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:09:11][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 349.157 ms
+
+[2022-04-02 09:13:07][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:13:07][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 160.076 ms
+
+[2022-04-02 09:13:37][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:13:37][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 168.490 ms
+
+[2022-04-02 09:15:42][[32minfo[39m] API router started at /api
+[2022-04-02 09:15:44][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:15:45][[32minfo[39m] Mongoose connected
+[2022-04-02 09:17:12][[32minfo[39m] API router started at /api
+[2022-04-02 09:17:14][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:17:16][[32minfo[39m] Mongoose connected
+[2022-04-02 09:17:23][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 7.174 ms
+
+[2022-04-02 09:17:49][[32minfo[39m] API router started at /api
+[2022-04-02 09:17:49][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:17:50][[32minfo[39m] Mongoose connected
+[2022-04-02 09:17:53][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:17:53][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 313.830 ms
+
+[2022-04-02 09:20:43][[32minfo[39m] API router started at /api
+[2022-04-02 09:20:43][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:20:44][[32minfo[39m] Mongoose connected
+[2022-04-02 09:21:50][[32minfo[39m] API router started at /api
+[2022-04-02 09:21:50][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:21:51][[32minfo[39m] Mongoose connected
+[2022-04-02 09:23:15][[32minfo[39m] API router started at /api
+[2022-04-02 09:23:15][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:23:16][[32minfo[39m] Mongoose connected
+[2022-04-02 09:23:24][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:23:25][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 275.415 ms
+
+[2022-04-02 09:24:36][[32minfo[39m] API router started at /api
+[2022-04-02 09:24:36][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:24:37][[32minfo[39m] Mongoose connected
+[2022-04-02 09:24:45][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:24:45][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 268.851 ms
+
+[2022-04-02 09:25:40][[32minfo[39m] API router started at /api
+[2022-04-02 09:25:40][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:25:41][[32minfo[39m] Mongoose connected
+[2022-04-02 09:25:45][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:25:45][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 285.808 ms
+
+[2022-04-02 09:26:31][[32minfo[39m] API router started at /api
+[2022-04-02 09:26:31][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:26:32][[32minfo[39m] Mongoose connected
+[2022-04-02 09:26:43][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:26:44][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 294.009 ms
+
+[2022-04-02 09:27:38][[32minfo[39m] API router started at /api
+[2022-04-02 09:27:38][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:27:39][[32minfo[39m] Mongoose connected
+[2022-04-02 09:27:43][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:27:43][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 328.126 ms
+
+[2022-04-02 09:28:13][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:28:13][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 238.029 ms
+
+[2022-04-02 09:29:02][[32minfo[39m] API router started at /api
+[2022-04-02 09:29:04][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:29:05][[32minfo[39m] Mongoose connected
+[2022-04-02 09:36:03][[32minfo[39m] API router started at /api
+[2022-04-02 09:36:03][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:36:04][[32minfo[39m] Mongoose connected
+[2022-04-02 09:36:39][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:36:39][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 212.224 ms
+
+[2022-04-02 09:37:38][[32minfo[39m] API router started at /api
+[2022-04-02 09:37:39][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:37:40][[32minfo[39m] Mongoose connected
+[2022-04-02 09:37:43][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:37:43][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 09:37:43][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 09:37:44][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 451.278 ms
+
+[2022-04-02 09:39:07][[32minfo[39m] API router started at /api
+[2022-04-02 09:39:09][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:39:10][[32minfo[39m] Mongoose connected
+[2022-04-02 09:39:13][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:39:13][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 263.452 ms
+
+[2022-04-02 09:39:14][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:39:14][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 213.849 ms
+
+[2022-04-02 09:39:40][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:39:40][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 196.520 ms
+
+[2022-04-02 09:39:59][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 09:39:59][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 09:39:59][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 09:39:59][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 375.202 ms
+
+[2022-04-02 09:59:33][[32minfo[39m] API router started at /api
+[2022-04-02 09:59:34][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 09:59:35][[32minfo[39m] Mongoose connected
+[2022-04-02 10:00:47][[32minfo[39m] API router started at /api
+[2022-04-02 10:01:05][[32minfo[39m] API router started at /api
+[2022-04-02 10:01:05][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 10:01:05][[32minfo[39m] Mongoose connected
+[2022-04-02 11:03:28][[32minfo[39m] Mongoose connected
+[2022-04-02 13:21:29][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 53.354 ms
+
+[2022-04-02 13:21:30][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 13:21:31][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 2.310 ms
+
+[2022-04-02 13:21:32][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 13:31:58][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 2.714 ms
+
+[2022-04-02 13:31:58][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 13:42:16][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 2.593 ms
+
+[2022-04-02 13:42:16][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 13:42:27][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 13:42:30][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 13:42:31][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 13:42:31][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 4377.039 ms
+
+[2022-04-02 13:42:32][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 14:12:33][[32minfo[39m] GRAPHQL query getAllUser($q:QueryInput){getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 200 - 23.238 ms
+
+[2022-04-02 14:12:56][[32minfo[39m] GRAPHQL query getAllUser($q:QueryInput){getAllUser(q:$q){data{username name id role email signInProvider}pagination{total limit page}}} - 200 - 5927.519 ms
+
+[2022-04-02 14:23:02][[32minfo[39m] GRAPHQL mutation UpdateBranch($data:UpdateBranchInput!){updateBranch(id:"623bc4342ecf0df52ce4e5fe" data:$data){name phone place{address provinceId location}active}} - 200 - 5.761 ms
+
+[2022-04-02 14:23:40][[32minfo[39m] GRAPHQL mutation UpdateBranch($data:UpdateBranchInput!){updateBranch(id:"623bc4342ecf0df52ce4e5fe" data:$data){name phone place{address provinceId location}active}} - 200 - 1068.351 ms
+
+[2022-04-02 14:32:23][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 367.707 ms
+
+[2022-04-02 14:33:08][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 85.179 ms
+
+[2022-04-02 14:46:35][[32minfo[39m] GRAPHQL query getAllProduct{getAllProduct(q:$q){data{like isLike category{name description active productionIds}attributes{name required min max options{name price isDefault}}active sellPrice basePrice images description name code categoryId view}}} - 400 - 18.106 ms
+
+[2022-04-02 14:47:02][[32minfo[39m] GRAPHQL query getAllProduct{getAllProduct(q:$q){data{like isLike category{name description active productionIds}attributes{name required min max options{name price isDefault}}active sellPrice basePrice images description name code categoryId view}}} - 400 - 3.735 ms
+
+[2022-04-02 14:47:11][[32minfo[39m] GRAPHQL query getAllProduct{getAllProduct(q:$q){data{like isLike category{name description active productionIds}attributes{name required min max options{name price isDefault}}active sellPrice basePrice images description name code categoryId view}}} - 400 - 3.053 ms
+
+[2022-04-02 14:47:24][[32minfo[39m] ids
+{ "0": "622e04b254ca132ca12169c3" }
+[2022-04-02 14:47:30][[32minfo[39m] GRAPHQL query getAllProduct($q:QueryInput){getAllProduct(q:$q){data{like isLike category{name description active productionIds}attributes{name required min max options{name price isDefault}}active sellPrice basePrice images description name code categoryId view}}} - 200 - 6120.162 ms
+
+[2022-04-02 15:34:46][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 200 - 277.454 ms
+
+[2022-04-02 15:35:19][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 200 - 54.525 ms
+
+[2022-04-02 15:35:43][[32minfo[39m] GRAPHQL mutation CreateUser($data:CreateUserInput!){createUser(data:$data){uid username name email signInProvider phone role rewardPoint unreadNotify id}} - 200 - 150.865 ms
+
+[2022-04-02 15:37:24][[32minfo[39m] GRAPHQL mutation LoginUserByFirebase($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{uid username name email signInProvider phone role rewardPoint unreadNotify createdAt updatedAt id}token}} - 200 - 2100.482 ms
+
+[2022-04-02 15:38:07][[32minfo[39m] GRAPHQL mutation LoginUserByFirebase($accessToken:String!){loginUserByFirebase(accessToken:$accessToken){user{uid username name email signInProvider phone role rewardPoint unreadNotify createdAt updatedAt id}token}} - 200 - 773.853 ms
+
+[2022-04-02 15:41:27][[32minfo[39m] ids
+{ "0": "622e04b254ca132ca12169c3" }
+[2022-04-02 15:41:27][[32minfo[39m] GRAPHQL query getAllProduct($q:QueryInput){getAllProduct(q:$q){data{like isLike category{name description active productionIds}attributes{name required min max options{name price isDefault}}active sellPrice basePrice images description name code categoryId view}}} - 200 - 164.639 ms
+
+[2022-04-02 15:42:48][[32minfo[39m] GRAPHQL mutation CreateProduct($data:CreateProductInput!){createProduct(data:$data){name description images basePrice sellPrice categoryId active view attributes{name required min max options{name price isDefault}}}} - 200 - 81.044 ms
+
+[2022-04-02 15:44:35][[32minfo[39m] GRAPHQL mutation CreateBranch($data:CreateBranchInput!){createBranch(data:$data){name phone place{address provinceId location}active}} - 200 - 7.619 ms
+
+[2022-04-02 15:44:56][[32minfo[39m] GRAPHQL mutation CreateBranch($data:CreateBranchInput!){createBranch(data:$data){name phone place{address provinceId location}active}} - 200 - 79.654 ms
+
+[2022-04-02 15:51:35][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 15:51:35][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 15:51:35][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 15:51:36][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 498.185 ms
+
+[2022-04-02 15:53:48][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 15:53:48][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 15:53:48][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 15:53:48][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 344.734 ms
+
+[2022-04-02 15:53:55][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 5.714 ms
+
+[2022-04-02 15:53:55][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 15:54:33][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 66.494 ms
+
+[2022-04-02 15:55:54][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 50.591 ms
+
+[2022-04-02 15:55:58][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 52.417 ms
+
+[2022-04-02 15:56:52][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 52.917 ms
+
+[2022-04-02 15:56:55][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 56.535 ms
+
+[2022-04-02 15:57:06][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 3.357 ms
+
+[2022-04-02 15:57:06][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 15:57:10][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 51.887 ms
+
+[2022-04-02 15:57:15][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 58.831 ms
+
+[2022-04-02 15:57:21][[32minfo[39m] GRAPHQL mutation CreatePromotion($data:CreatePromotionInput!){createPromotion(data:$data){name description startDate endDate active discount{discountValue discountUnit maxDiscount}id createdAt updatedAt promotionCode promotionType}} - 200 - 48.830 ms
+
+[2022-04-02 15:57:30][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 15:57:30][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 262.032 ms
+
+[2022-04-02 16:04:11][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:04:12][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 206.420 ms
+
+[2022-04-02 16:04:24][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:04:24][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 16:04:24][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 16:04:25][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 354.832 ms
+
+[2022-04-02 16:16:55][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:16:55][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 16:16:56][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 16:16:56][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 335.348 ms
+
+[2022-04-02 16:17:07][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:17:08][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 16:17:08][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 16:17:08][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 322.668 ms
+
+[2022-04-02 16:17:11][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:17:11][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 191.381 ms
+
+[2022-04-02 16:17:16][[32minfo[39m] GRAPHQL mutation SendNotify($data:SendNotifyInput){sendNotify(data:$data)} - 200 - 3.462 ms
+
+[2022-04-02 16:17:16][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:17:29][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:17:29][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 16:17:29][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 16:17:29][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 397.524 ms
+
+[2022-04-02 16:17:52][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:17:52][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 16:17:52][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 16:17:52][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 328.705 ms
+
+[2022-04-02 16:18:17][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 16:18:17][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 16:18:17][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 16:18:17][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 327.723 ms
+
+[2022-04-02 17:15:14][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 17:15:14][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 17:15:14][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 17:15:14][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 417.257 ms
+
+[2022-04-02 17:15:18][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 17:15:18][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 17:15:18][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 17:15:18][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 323.321 ms
+
+[2022-04-02 17:15:23][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 17:15:23][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 192.073 ms
+
+[2022-04-02 17:15:46][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 17:15:47][[32minfo[39m] ids
+{ "0": "622da26c9cda2b903445dd4f" }
+[2022-04-02 17:15:47][[32minfo[39m] ids
+{ "0": "623bc4342ecf0df52ce4e5fe" }
+[2022-04-02 17:15:47][[32minfo[39m] GRAPHQL mutation CreateOrder($data:CreateOrderInput!){createOrder(data:$data){buyerId buyerName buyerPhone buyerAddress buyerLocation promotionCode useRewardPoint branchId items{productName productId attrs{attributeName}}}} - 200 - 330.656 ms
+
+[2022-04-02 17:15:53][[32minfo[39m] ids
+{ "0": "622d322671c1a82294481ccd" }
+[2022-04-02 17:15:53][[32minfo[39m] GRAPHQL mutation UpdateOrder($updateOrderId:ID!$data:UpdateOrderInput!){updateOrder(id:$updateOrderId data:$data){status}} - 200 - 185.567 ms
+
+[2022-04-02 21:16:20][[32minfo[39m] Mongoose connected
+[2022-04-02 22:26:34][[32minfo[39m] API router started at /api
+[2022-04-02 22:26:37][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 22:26:39][[32minfo[39m] Mongoose connected
+[2022-04-02 22:29:06][[32minfo[39m] API router started at /api
+[2022-04-02 22:29:08][[31merror[39m] Redis connection failed connect ECONNREFUSED 127.0.0.1:6379
+{ "errno": -4078, "code": "ECONNREFUSED", "syscall": "connect", "address": "127.0.0.1", "port": 6379 }
+Error: connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+[2022-04-02 22:29:09][[32minfo[39m] Mongoose connected

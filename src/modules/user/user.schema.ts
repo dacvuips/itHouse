@@ -36,6 +36,31 @@ export default gql`
         role: String
         "Điểm thưởng"
         rewardPoint: Int
+        "Điểm thưởng"
+        rewardPointDiscount: Float
+    }
+    type UserInput {
+        id: ID!
+        createdAt: DateTime
+        updatedAt: DateTime
+        "Username is unique"
+        uid: String
+        "Username"
+        username: String
+        "Họ và tên"
+        name: String
+        "Email"
+        email: String
+        "Nhà cung cấp đăng nhập"
+        signInProvider: String
+        "Số điện thoại"
+        phone: String
+        "Quyền ${Object.values(UserRole)}"
+        role: String
+        "Điểm thưởng"
+        rewardPoint: Int
+        "Điểm thưởng"
+        rewardPointDiscount: Float
     }
 
     input CreateUserInput {
@@ -49,8 +74,8 @@ export default gql`
         phone: String
         "Mật khẩu"
         password: String!
-        "Quyền ${Object.values(UserRole)}"
-        role: String
+        
+        
     }
 
     input UpdateUserInput {
@@ -60,6 +85,10 @@ export default gql`
         email: String
         "Số điện thoại"
         phone: String
+        "Quyền ${Object.values(UserRole)}"
+        role: String
+        "Điểm thưởng"
+        rewardPointDiscount: Float
     }
 
 `;

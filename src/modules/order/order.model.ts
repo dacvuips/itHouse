@@ -1,3 +1,4 @@
+import { Discount } from "./../promotion/discount.graphql";
 import { Document, Schema } from "mongoose";
 import { BaseDocument } from "../../base/baseModel";
 import { Mongo } from "../../helpers/mongo";
@@ -33,6 +34,9 @@ export type Order = BaseDocument & {
   rewardPointDiscount?: number; //Giảm giá điểm thưởng
   items?: OrderItem; //Danh sách sản phẩm
   branch?: Branch; //Cửa hàng
+  distance?: number; //Khoảng cách
+  discountInfo?: Discount; //Thông tin giảm giá
+  shipfeePerKm?: number; //Phí vận chuyển
 };
 
 const orderSchema = new Schema(
@@ -77,6 +81,9 @@ const orderSchema = new Schema(
 
     items: { type: [OrderItemSchema], default: [] },
     branchId: { type: Schema.Types.ObjectId, required: true },
+    distance: { type: Number, default: 0 },
+    discountInfo: { type: Schema.Types.Mixed, default: {} },
+    shipfeePerKm: { type: Number, default: 0 },
   },
   { timestamps: true }
 );

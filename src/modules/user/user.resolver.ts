@@ -1,10 +1,12 @@
 import { validateEmail } from "../../helpers/function/string";
 import { UserModel } from "./user.model";
 import passwordHash from "password-hash";
+import { userService } from "./user.service";
 
 export default {
   Query: {
     getAllUser: async (root: any, args: any, context: any) => {
+      context.auth(["ADMIN", "USER", "SHIPPER"]);
       const { q } = args;
       return await fetch(q);
     },
@@ -28,15 +30,23 @@ export default {
         throw new Error("Username must be at least 6 characters");
       }
       // step 2: check password is valid
-      if (password.length < 6) {
-        throw new Error("Password must be at least 6 characters");
+      if (password.length < 6 && password.length > 10) {
+        throw new Error(
+          "Password must be at least 6 characters or less than 10 characters"
+        );
       }
       // step 3: check email is valid
       checkEmailIsValid(email);
       // step 4: check user is exist
       await checkUsernameIsExist(username);
-
+      if (role) {
+        if (!context.auth(["ADMIN"])) {
+          throw new Error("Bạn không có quyền thây đổi loại người dùng");
+        }
+      }
+      const uid = userService.generateCode();
       const user = await UserModel.create({
+        uid: uid,
         username: username,
         name: name,
         email: email,
@@ -57,6 +67,12 @@ export default {
       // step 2: if has email, then check email is valid
       if (email) {
         checkEmailIsValid(email);
+      }
+      if (data.role) {
+        if (!context.auth(["ADMIN"])) {
+          throw new Error("Bạn không có quyền thây đổi loại người dùng");
+        }
+        user.role = data.role;
       }
       // step 3: update user
       return await UserModel.findByIdAndUpdate(

@@ -1,18 +1,25 @@
+import { User } from "./../user/user.model";
 import { NotificationModel } from "../notifycation/notification.model";
 import { OrderItem } from "./orderItem.graphql";
 import _, { identity } from "lodash";
 import { Context } from "../../helpers/graphql/context";
 import { GraphqlResolver } from "../../helpers/graphql/resover";
 import { ProductLoader } from "../product/product.model";
-import { UserLoader } from "../user/user.model";
+import { UserLoader, UserModel } from "../user/user.model";
 import { OrderModel, OrderStatus } from "./order.model";
 import { orderService } from "./order.service";
 import { OrderItemAttribute } from "./orderItemAttribute.graphql";
 import { BranchLoader } from "./branch/branch.model";
 import { nanoid } from "nanoid";
-import { Promotion, PromotionLoader } from "../promotion/promotion.model";
+import {
+  Promotion,
+  PromotionLoader,
+  PromotionModel,
+} from "../promotion/promotion.model";
 
 import firebase from "../../helpers/firebase";
+import { userService } from "../user/user.service";
+import console from "console";
 
 export default {
   Query: {
@@ -45,17 +52,16 @@ export default {
         throw new Error("Không tìm thấy user");
       }
       // Get Promotions and check is valid
-
-      const promotionId = data.promotionCode;
-      if (!promotionId) {
-        throw new Error("Không có khuyến mãi");
+      let rewardPointDiscount = 0;
+      if (data.useRewardPoint === true) {
+        const user: any = await UserModel.find({ _id: buyerId });
+        rewardPointDiscount = user[0].rewardPointDiscount! * 1000;
+        await UserModel.findByIdAndUpdate(buyerId, {
+          $set: {
+            rewardPointDiscount: 0,
+          },
+        });
       }
-      const promotion = await PromotionLoader.load(promotionId);
-      if (!promotion) {
-        throw new Error("Không tìm thấy khuyến mãi");
-      }
-      console.log(promotion);
-      const discount = promotion.discount?.discountValue;
 
       // pase items
       const orderItems: OrderItem[] = await getOrderItems(data);
@@ -87,13 +93,57 @@ export default {
       // TODO: calculate discount
       // const discount = 0;
 
-      const rewardPointDiscount = 0;
-
-      // TODO: calculate reward point
       const rewardPoint = 0;
 
+      // TODO: calculate reward point
+
       const subtotal = _.sumBy(orderItems, "amount");
-      const amount = subtotal + shipfee - discount!;
+
+      // PROMOTION
+      const promotionCode = data.promotionCode;
+      if (!promotionCode) {
+        throw new Error("Không có khuyến mãi");
+      }
+      const promotion = await PromotionModel.findOne({
+        promotionCode: promotionCode,
+      });
+      if (!promotion) {
+        throw new Error("Không tìm thấy khuyến mãi");
+      }
+      const discount = promotion.discount?.discountValue!;
+
+      // Check Subtotal is more than discount
+      if (subtotal < rewardPointDiscount + discount) {
+        throw new Error("Giá trị khuyến mãi không hợp lệ");
+      }
+      let amount = 0;
+      if (
+        promotion.promotionType == "FREE" ||
+        promotion.promotionType == "AMOUNT"
+      ) {
+        if (discount >= promotion.discount?.maxDiscount!) {
+          amount =
+            subtotal +
+            shipfee -
+            promotion.discount?.maxDiscount! -
+            rewardPointDiscount;
+        } else {
+          amount = subtotal + shipfee - discount! - rewardPointDiscount;
+        }
+      } else {
+        if (discount >= promotion.discount?.maxDiscount!) {
+          amount =
+            subtotal * ((100 - promotion.discount?.maxDiscount!) / 100) +
+            shipfee -
+            rewardPointDiscount;
+        } else {
+          amount =
+            subtotal * ((100 - discount!) / 100) +
+            shipfee -
+            rewardPointDiscount;
+        }
+      }
+
       const order = await orderService.create({
         code: nanoid(),
         buyerId: buyerId,
@@ -103,16 +153,24 @@ export default {
         buyerLocation: data.buyerLocation,
         subtotal: subtotal,
         discount: discount,
+
+        discountInfo: {
+          discountValue: promotion.discount?.discountValue,
+          discountUnit: promotion.discount?.discountUnit,
+        },
+
+        shipfeePerKm: branch.shipfeePerKm,
+        distance: distance,
         shipfee: shipfee,
         amount: amount,
         status: OrderStatus.PENDING,
-        promotionCode: promotionId,
+        promotionCode: data.promotionCode,
         promotionName: promotion.name,
         rewardPoint: rewardPoint,
         useRewardPoint: data.useRewardPoint,
         rewardPointDiscount: rewardPointDiscount,
-        items: orderItems,
         branchId: branch._id,
+        items: orderItems,
       });
       function getDistance(x1: number, x2: number, y1: number, y2: number) {
         let x = x1 - x2;
@@ -135,13 +193,29 @@ export default {
 
       const { id, data } = args;
       const order = await orderService.findById(id);
-      console.log(order.buyerId);
+
       sendNotify(
         `${order.buyerId}`,
         `Cập nhật đơn hàng của khách hàng ${order.buyerName}`,
         `Đơn hàng đã cập nhật thành ${data.status}`,
         id
       );
+      if (data.status == OrderStatus.DELIVERED) {
+        const user: any = await UserModel.find({ _id: order.buyerId });
+
+        await UserModel.findByIdAndUpdate(order.buyerId, {
+          $set: { rewardPointDiscount: user[0].rewardPointDiscount + 1 },
+        });
+        await PromotionModel.findByIdAndUpdate(order.promotionCode, {
+          $set: { active: false },
+        });
+        sendNotify(
+          `${order.buyerId}`,
+          `Đơn hàng của khách hàng ${order.buyerName} đã giao`,
+          `Đơn hàng đã giao thành công`,
+          id
+        );
+      }
 
       return await orderService.update(id, data);
     },

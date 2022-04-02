@@ -25,6 +25,9 @@ export default {
       if (!data.discount.discountId) {
         data.discount.discountId = promotionService.generateCode();
       }
+      if (!data.promotionCode) {
+        data.promotionCode = promotionService.generateCode();
+      }
       const promotion = await promotionService.create(data);
       return promotion;
     },

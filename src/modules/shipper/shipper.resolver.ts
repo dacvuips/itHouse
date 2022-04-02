@@ -40,8 +40,15 @@ export default {
     },
     deleteShipper: async (root: any, args: any, context: any) => {
       context.auth(["ADMIN"]);
-      const { id } = args;
-      return await shipperService.delete(id);
+
+      const { uid } = args;
+
+      const user = UserModel.find({ _id: uid });
+      if (!user) {
+        throw new Error("User not found");
+      }
+      await UserModel.updateOne({ _id: uid }, { role: "USER" });
+      return await shipperService.delete(uid);
     },
   },
 };

@@ -11,3 +11,7 @@ connection.on("connected", () => {
 });
 
 export const Mongo = connection;
+
+// mongoose.set("debug", (collectionName: string, method: string, query: any) => {
+//   logger.info("mongo", { collectionName, method, query });
+// });
